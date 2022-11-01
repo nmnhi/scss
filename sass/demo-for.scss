@@ -1,0 +1,19 @@
+$borders: "1px solid #999" "2px solid #999" "3px solid #999" "4px solid #999" "5px solid #999";
+
+@for $i from 1 through 5{
+    .slider-item-#{$i}{
+        background: orange;
+        border: 1px solid #999;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: gray;
+        @if ($i%2 == 0){
+            background-color: #999;
+        }
+        @else{
+            background-color: yellowgreen;
+        }
+    }
+}

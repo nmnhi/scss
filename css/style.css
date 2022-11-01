@@ -1,0 +1,32 @@
+body {
+  background-color: gray;
+  color: #333;
+}
+
+h3 {
+  color: red;
+  border: 1px solid orange;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 15px;
+  background: #3ca3a3;
+}
+nav ul li a:hover {
+  background: #0e5454;
+  color: #836d44;
+}
+
+/*# sourceMappingURL=style.css.map */

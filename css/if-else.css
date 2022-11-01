@@ -1,0 +1,27 @@
+button, .login {
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #eee;
+}
+button:hover, .login:hover {
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+
+.login {
+  background-color: green;
+}
+
+h1 {
+  border: 1px solid red;
+  width: 800px;
+  padding: 10px;
+  border-radius: 5px;
+  background: gray;
+}
+
+/*# sourceMappingURL=if-else.css.map */

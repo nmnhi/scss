@@ -1,0 +1,17 @@
+.register{
+    color: #fff;
+    background: orange;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.border{
+    border: 1px solid red;
+}
+.content{
+    @extend.register;
+    @extend.border;
+    margin-top: 10px;
+    max-width: 500px;
+}

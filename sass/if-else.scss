@@ -1,0 +1,48 @@
+button{
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eee;
+    &:hover{
+        background-color: yellowgreen;
+        cursor: pointer;
+    }
+}
+
+.login{
+    @extend button;
+    background-color: green;
+}
+
+
+
+$screenWidth: 500px;
+@if($screenWidth > 500px){
+    h1{
+        border: 1px solid red;
+        width: 600px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+@if($screenWidth < 500px){
+    h1{
+        width: 600px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+@if($screenWidth == 500px){
+    h1{
+        border: 1px solid red;
+        width: 800px;
+        padding: 10px;
+        border-radius: 5px;
+        background: gray;
+    }
+}
